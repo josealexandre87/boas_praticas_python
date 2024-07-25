@@ -19,31 +19,6 @@ Boas_Praticas_em_Python/
 └── test_models.py
 |__venv
 
-
-Perfeito, agora tenho todos os arquivos. Aqui está o README.md abrangente para o seu repositório, destacando as boas práticas em Python:
-
-markdown
-Copiar código
-# Boas Práticas em Python
-
-Este repositório demonstra a implementação de boas práticas em Python usando o padrão arquitetural MVC (Model-View-Controller). O objetivo é apresentar uma estrutura organizada e de fácil manutenção para projetos Python.
-
-## Estrutura do Projeto
-
-O projeto está organizado nas seguintes pastas e arquivos principais:
-
-Boas_Praticas_em_Python/
-│
-├── src/
-│ ├── views/
-│ │     └── index.py
-│ ├── controller/
-│ │     └── pessoa.py
-│ └── models/
-│       └── pessoa.py
-└── tests/
-    └── test_models.py
-
 ### Modelos (Models)
 
 Os modelos são responsáveis pela estrutura dos dados. No arquivo `pessoa.py` localizado em `src/models/`, temos a classe `Pessoa` que define os atributos de uma pessoa.
