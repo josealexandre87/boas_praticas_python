@@ -41,6 +41,7 @@ Para executar o projeto, siga os passos abaixo:
 - Certifique-se de que o ambiente virtual esteja ativado.
 - Navegue até o diretório raiz do projeto.
 - Execute o script index.py:
+
 ```sh
   python -m src.views.index
 ```
@@ -48,6 +49,10 @@ Para executar o projeto, siga os passos abaixo:
 ### Testes
 
 - Para rodar os testes, use o pytest:
+
 ```sh
     pytest tests/test_models.py
 ```
+![error](test_error.png)
+
+![safe](test_safe.png)
