@@ -6,6 +6,7 @@ Este repositório demonstra a implementação de boas práticas em Python usando
 
 O projeto está organizado nas seguintes pastas e arquivos principais:
 
+```sh
 Boas_Praticas_em_Python/
 │__doc
 ├── src/
@@ -18,7 +19,7 @@ Boas_Praticas_em_Python/
 └── tests/
 └── test_models.py
 |__venv
-
+```
 ### Modelos (Models)
 
 Os modelos são responsáveis pela estrutura dos dados. No arquivo `pessoa.py` localizado em `src/models/`, temos a classe `Pessoa` que define os atributos de uma pessoa.
