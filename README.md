@@ -8,17 +8,18 @@ O projeto está organizado nas seguintes pastas e arquivos principais:
 
 ```sh
 Boas_Praticas_em_Python/
-│__doc
+
+├── doc
 ├── src/
 │ ├── views/
-│ │ └── index.py
+│ │     └── index.py
 │ ├── controller/
-│ │ └── pessoa.py
+│ │     └── pessoa.py
 │ └── models/
-│ └── pessoa.py
+│       └── pessoa.py
 └── tests/
-└── test_models.py
-|__venv
+│   └── test_models.py
+└── venv
 ```
 ### Modelos (Models)
 
@@ -26,13 +27,13 @@ Os modelos são responsáveis pela estrutura dos dados. No arquivo `pessoa.py` l
 
 ### Controladores (Controllers)
 
-Os controladores contêm a lógica dos dados nos modelos. No arquivo pessoa.py localizado em `src/controller/`, temos a classe `PessoaController` que gerencia a lógica de salvar e listar pessoas.
+Os controladores contêm a lógica dos dados nos modelos. No arquivo `pessoa.py` localizado em `src/controller/`, temos a classe `PessoaController` que gerencia a lógica de salvar e listar pessoas.
 
 ### Visões (Views)
-As visões são onde temos as interações com o usuário, seja através de uma interface gráfica ou de linha de comando. No arquivo index.py localizado em src/views/, interagimos com o usuário para salvar ou listar pessoas.
+As visões são onde temos as interações com o usuário, seja através de uma interface gráfica ou de linha de comando. No arquivo `index.py` localizado em `src/views/`, interagimos com o usuário para salvar ou listar pessoas.
 
 ### Testes (Tests)
-Os testes são essenciais para garantir que o código funcione conforme o esperado. No arquivo test_models.py localizado em tests/, temos um teste simples para verificar a concatenação do nome e sobrenome.
+Os testes são essenciais para garantir que o código funcione conforme o esperado. No arquivo `test_models.py` localizado em `tests/`, temos um teste simples para verificar a concatenação do nome e sobrenome.
 
 ## Executando o Projeto
 
@@ -40,7 +41,7 @@ Para executar o projeto, siga os passos abaixo:
 
 - Certifique-se de que o ambiente virtual esteja ativado.
 - Navegue até o diretório raiz do projeto.
-- Execute o script index.py:
+- Execute o script `index.py`:
 
 ```sh
   python -m src.views.index
